@@ -1,6 +1,6 @@
 [package]
 name = "string_error_wrap"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
 authors = ["taitep <taitep@taitep.se>"]
 description = "Simple crate providing a macro for an error type wrapping a String."
