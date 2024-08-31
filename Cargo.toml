@@ -8,4 +8,3 @@ license = "MIT"
 repository = "https://github.com/taitep/string_error_wrap"
 
 [dependencies]
-thiserror = "1"
