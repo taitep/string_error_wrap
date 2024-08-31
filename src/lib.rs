@@ -22,7 +22,7 @@
 ///
 /// # Usage
 /// ```
-/// string_error_wrap::wrapper!(NameOfErrorTypeYouWant);
+/// string_error_wrap::wrapper_gen!(NameOfErrorTypeYouWant);
 /// ```
 /// will define a struct that implements `Debug`, `Error` and `Clone`
 /// as well as `From<String>`.
