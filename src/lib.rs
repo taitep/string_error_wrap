@@ -35,7 +35,7 @@
 #[macro_export]
 macro_rules! wrapper_gen {
     ($name:ident) => {
-        #[derive(Debug, thiserror::Error, Clone)]
+        #[derive(Debug, Clone)]
         struct $name(String);
 
         impl std::fmt::Display for $name {
@@ -49,5 +49,7 @@ macro_rules! wrapper_gen {
                 Self(value)
             }
         }
+
+        impl std::error::Error for $name {}
     };
 }
